@@ -5,13 +5,19 @@ import Process from "../components/sections/Process";
 import Portfolio from "../components/sections/Portfolio";
 import Testimonials from "../components/sections/Testimonials";
 import Contact from "../components/sections/Contact";
+import WhyChooseUs from "../components/sections/WhyChooseUs";
+import CaseStudy from "../components/sections/CaseStudy";
+import Results from "../components/sections/Results";
 
 /* ================= Navigator Config ================= */
 const sections = [
   { id: "hero", label: "Home" },
   { id: "services", label: "Services" },
   { id: "process", label: "Process" },
-  { id: "portfolio", label: "Work" },
+  { id: "results", label: "Results" },
+  { id: "whychooseus", label: "Why Choose Us" },
+  { id: "casestudy", label: "Case Study" },
+  { id: "portfolio", label: "Portfolio" },
   { id: "testimonials", label: "Reviews" },
   { id: "contact", label: "Contact" },
 ];
@@ -64,20 +70,18 @@ const Home = () => {
             >
               {/* Dot */}
               <span
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  isActive
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${isActive
                     ? "bg-teal-600 scale-125 shadow-lg shadow-teal-500/50"
                     : "bg-gray-400 dark:bg-gray-600"
-                }`}
+                  }`}
               />
 
               {/* Label */}
               <span
-                className={`text-sm font-medium transition-all duration-300 ${
-                  isActive
+                className={`text-sm font-medium transition-all duration-300 ${isActive
                     ? "opacity-100 translate-x-0 text-teal-600"
                     : "opacity-0 -translate-x-2 text-gray-500 group-hover:opacity-80"
-                }`}
+                  }`}
               >
                 {section.label}
               </span>
@@ -98,6 +102,18 @@ const Home = () => {
       <section id="process">
         <Process />
       </section>
+
+      <section id="results" className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+        <Results />
+      </section>
+
+      <section id="whychooseus">
+        <WhyChooseUs />
+      </section>
+
+      <section id="casestudy">
+        <CaseStudy />
+      </section> 
 
       <section id="portfolio">
         <Portfolio />

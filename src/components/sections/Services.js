@@ -13,45 +13,38 @@ import {
 const services = [
   {
     icon: Search,
-    title: "SEO Optimization",
+    title: "SEO Services Company",
     description:
-      "Improve search rankings and drive organic traffic with proven SEO strategies.",
+      "Rank higher on Google & get organic traffic that converts.",
     color: "from-[#06cabc] to-[#06a6c4]",
   },
   {
     icon: Share2,
-    title: "Social Media Marketing",
+    title: "Digital Marketing Services",
     description:
-      "Build brand presence and engage audiences across social platforms.",
+      "Complete marketing solutions including ads, content & strategy.",
     color: "from-[#06cabc] to-[#0699c4]",
   },
   {
     icon: Target,
-    title: "PPC Advertising",
+    title: "Custom Web Development Services",
     description:
-      "Maximize ROI with targeted PPC campaigns on major ad platforms.",
+      "High-performance websites designed to convert visitors into customers.",
     color: "from-[#06cabc] to-[#06b4c4]",
   },
   {
     icon: PenTool,
-    title: "Content Marketing",
+    title: "Mobile App Development Company",
     description:
-      "Create compelling content that converts and builds trust.",
+      "Scalable Android & iOS apps tailored to your business needs.",
     color: "from-[#06cabc] to-[#06dac4]",
   },
   {
     icon: Mail,
-    title: "Email Marketing",
+    title: "Performance Marketing",
     description:
-      "Nurture leads and retain customers with smart automation.",
+      "ROI-focused Google Ads & Meta Ads campaigns.",
     color: "from-[#06cabc] to-[#06e4c4]",
-  },
-  {
-    icon: BarChart,
-    title: "Web Analytics",
-    description:
-      "Track performance and optimize decisions with actionable insights.",
-    color: "from-[#06cabc] to-[#06f4c4]",
   },
 ];
 
@@ -91,11 +84,11 @@ const Services = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="text-gray-900 dark:text-white">Our </span>
             <span className="bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">
-              Premium Services
+              Growth-Focused Services
             </span>
           </h2>
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            High-impact digital solutions crafted to grow your brand and ROI
+            We are a full-service digital marketing agency and web development company in Hyderabad helping brands scale online.
           </p>
         </motion.div>
 

@@ -327,8 +327,7 @@ const Footer = () => {
 
           {/* Additional Info */}
           <div className="mt-6 text-center text-gray-500 text-xs">
-            <p>PixelMindSolutions is a registered trademark. All other trademarks are the property of their respective owners.</p>
-            <p className="mt-2">Made with ❤️ for digital excellence</p>
+            <p>Your trusted digital marketing agency & web development company in Hyderabad delivering growth-focused solutions.</p>
           </div>
         </div>
       </div>

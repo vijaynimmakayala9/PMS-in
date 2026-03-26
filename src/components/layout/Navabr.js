@@ -25,7 +25,6 @@ const Navbar = () => {
     { name: "Services", path: "/services" },
     { name: "Portfolio", path: "/portfolio" },
     { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
   ];
 
   return (
@@ -107,10 +106,10 @@ const Navbar = () => {
                 </Link>
               ))}
               <button
-                onClick={() => navigate("/getstarted")}
+                onClick={() => navigate("/contact")}
                 className="px-6 py-2 bg-gradient-to-r from-[#05c2b5] to-[#06cabc] text-white font-semibold rounded-full shadow-lg hover:shadow-xl"
               >
-                Get Started
+                Contact Us
               </button>
             </div>
 

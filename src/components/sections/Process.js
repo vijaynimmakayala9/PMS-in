@@ -5,30 +5,30 @@ import { Search, Target, Play, TrendingUp } from 'lucide-react';
 const processSteps = [
   {
     icon: Search,
-    title: 'Research & Discovery',
+    title: '1.Research & Strategy',
     description:
-      'We analyze your market, audience, and competitors to identify opportunities.',
+      'We analyze your market, competitors & audience.',
     color: 'from-[#06cabc] to-[#06a6c4]',
   },
   {
     icon: Target,
-    title: 'Strategy Development',
+    title: '2.Execution',
     description:
-      'Crafting a customized marketing strategy aligned with your business objectives.',
+      'We implement SEO, ads & development strategies.',
     color: 'from-[#06cabc] to-[#0699c4]',
   },
   {
     icon: Play,
-    title: 'Execution',
+    title: '3.Optimization',
     description:
-      'Implementing campaigns across all channels with precision and creativity.',
+      'Continuous improvement for better performance.',
     color: 'from-[#06cabc] to-[#06b4c4]',
   },
   {
     icon: TrendingUp,
-    title: 'Optimization',
+    title: '4.Scaling',
     description:
-      'Continuous monitoring and refinement to maximize performance and ROI.',
+      'We scale campaigns to maximize ROI.',
     color: 'from-[#06cabc] to-[#06dac4]',
   },
 ];
@@ -69,7 +69,7 @@ const Process = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="text-gray-900 dark:text-white">Our Proven </span>
             <span className="bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">
-              Process
+              Growth Process
             </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">

@@ -73,20 +73,20 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "hello@pixelmindsolutions.com",
+      value: "info@pixelmindsolutions.com",
       description: "We respond within 24 hours",
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      description: "Mon–Fri · 9am–6pm",
+      value: "+91 9052097475",
+      description: "Mon–Fri · 10am–7pm",
     },
     {
       icon: MapPin,
       title: "Office",
       value: "123 Marketing Ave",
-      description: "San Francisco, CA",
+      description: "Hyderabad, India",
     },
     {
       icon: Clock,
@@ -125,14 +125,14 @@ const Contact = () => {
         >
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="text-gray-900 dark:text-white">
-              Let's Start Your{" "}
+              Get Free{" "}
             </span>
             <span className="bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">
-              Success Story
+              Digital Marketing Audit
             </span>
           </h2>
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
-            Reach out for a free strategy consultation.
+            Want to grow your business online? Get a free consultation from our experts.
           </p>
         </motion.div>
 
@@ -163,7 +163,7 @@ const Contact = () => {
             ) : (
               <>
                 <h3 className="text-2xl font-semibold mb-6">
-                  Send us a message
+                  Get Free Audit Now
                 </h3>
 
                 <form onSubmit={handleSubmit} className="space-y-5">
@@ -235,7 +235,7 @@ const Contact = () => {
                   >
                     {isSubmitting ? "Sending..." : (
                       <>
-                        <Send size={18} /> Send Message
+                        <Send size={18} /> Get Free Audit
                       </>
                     )}
                   </motion.button>
